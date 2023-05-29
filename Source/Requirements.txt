@@ -1,0 +1,20 @@
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+torchvision
+opencv-python
+Ipython
+
+
+Pytorch telepítési script a legfrissebb cuda (12.1) verzióra:
+pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu121
+
+
+Dataset:
+http://human-pose.mpi-inf.mpg.de/#download Images(12.9 GB)
+
+CSV:
+https://github.com/Arifkhan21/MPII-Dataset-in-CSV
+
