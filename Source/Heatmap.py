@@ -1,5 +1,22 @@
 from scipy.stats import norm
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+from torch.utils.data import DataLoader
+from torchvision import datasets, transforms
+from torchvision.utils import make_grid
+import scipy.io
+import cv2
+import glob
+import numpy as np
+import pandas as pd
+#from sklearn.metrics import confusion_matrixmatrix
+import matplotlib.pyplot as plt
+import torch.utils.data
 
+New_width=None
+New_height=None
+BATCH_SIZE=None
 def create_gaussian_map(center, output_shape, sigma=4):
    
     height, width = output_shape
